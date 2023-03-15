@@ -43,6 +43,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    grid-column: 2 / 3;
+    text-align: right;
   }
   
   nav ul {
@@ -66,12 +68,6 @@ header {
   grid-column: 1 / 2;
   margin-right: 100px;
 }
-
-nav {
-  grid-column: 2 / 3;
-  text-align: right;
-}
-
 
 main {
     max-width: 1200px;
@@ -124,9 +120,7 @@ main {
     max-width: 80%;
     margin: 0 auto;
   }
-  
-  
-  
+   
   .article-img {
     position: absolute;
     top: 50%;
